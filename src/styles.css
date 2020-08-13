@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    color: #424242;
+    font-family: Open Sans;
+}
+.header-box{
+    padding: 5px;
+    height: 60px;
+    background-color: #000;    
+}
+.header-box--logo{
+    display: inline-block;
+    width: 100px;
+    padding: 4px 0;
+}
+.header-box--nav{
+    width: 70%;
+    display: inline-block;
+    margin-left: 60px;
+    padding: 4px 0;    
+}
+.header-box *{
+    color: #EEEEEE;
+}
+.header-box--user{
+    float: right;    
+    padding: 8px 0;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+nav a{
+    margin-right: 40px;
+    text-decoration: none;
+}
+.carousel-box{
+    padding: 10px 70px;
+}
